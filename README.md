@@ -29,4 +29,4 @@ You can check your chrome version from [here](https://www.whatismybrowser.com/de
 # IMPORTANT<br>
 
 **Before you start the program you must enter your mail, amazon account password and product name you'll be searching.**<br><br>
-**When program tries to sign in for the first time Amazon will want a verification code from you(which will be sent to your mail address).Just enter the code, shut down your browser and start program again**<br>
+**When program tries to sign in for the first time Amazon will want a verification code from you(which will be sent to your mail address).Just enter the code, shut down your browser and start the program again.**<br>
