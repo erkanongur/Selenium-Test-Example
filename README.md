@@ -2,7 +2,7 @@
 **First, I don't recommend using your own account.Create new account before start the project.**<br>
 **Second, make sure you don't have any 'Wish Lists' on your account.**<br><br>
 # REQUIREMENTS<br>
-You must install Selenium<br>
+You must install Selenium : <br>
 ```
 pip install selenium
 ```
