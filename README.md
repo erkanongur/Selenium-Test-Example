@@ -2,14 +2,15 @@
 **First, I don't recommend using your own account.Create new account before start the project.**<br>
 **Second, make sure you don't have any 'Wish Lists' on your account.**<br><br>
 # REQUIREMENTS<br>
--You should install Selenium<br>
+You should install Selenium<br>
 ```
 pip install selenium
 ```
 <br>
+
 You should install chromedriver for your browser and locate it as I did. <br>
-You can install it from ![here](http://chromedriver.chromium.org/downloads). <br>
--You can check your chrome version from ![here](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have). <br>
+You can install it from [here](http://chromedriver.chromium.org/downloads) <br>
+You can check your chrome version from [here](https://www.whatismybrowser.com/detect/what-version-of-chrome-do-i-have). <br>
 
 **Program is dedicated to follow this scenario :**<br>
 
