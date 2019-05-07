@@ -12,7 +12,6 @@ class AmazonTest(WebDriverBase):
     GIRIS_MAIL_INPUT = (By.ID, "ap_email")
     GIRIS_PASSWORD_INPUT = (By.ID, "ap_password")
     GIRIS_YAP_BUTON = (By.ID, "signInSubmit")
-    GIRIS_YAPILDI_KONTROL = (By.CLASS_NAME, "nav-shortened-name")
 
     ARAMA_BARI = (By.ID, "twotabsearchtextbox")
     ARAMA_BUTONU = (By.CLASS_NAME, "nav-search-submit")
@@ -28,7 +27,7 @@ class AmazonTest(WebDriverBase):
         self.init_driver()
         self.driver.get("https://www.amazon.com")
         self.girisYap()
-        self.urunuBul("Samsung")
+        self.urunuBul("Product-Name")
         self.urunuEkle()
         self.driver.quit()
 
@@ -36,10 +35,10 @@ class AmazonTest(WebDriverBase):
     def girisYap(self):
         self.get_element(self.GIRIS_BUTONU).click()
         assert self.get_element(self.GIRIS_SAYFA_KONTROL).text == "Sign in"
-        self.get_element(self.GIRIS_MAIL_INPUT).send_keys("erkanongur@hotmail.com")
-        self.get_element(self.GIRIS_PASSWORD_INPUT).send_keys("23181113ss")
+        self.get_element(self.GIRIS_MAIL_INPUT).send_keys("Yourmail@mail.com")
+        self.get_element(self.GIRIS_PASSWORD_INPUT).send_keys("Your Password")
         self.get_element(self.GIRIS_YAP_BUTON).click()
-        assert self.get_element(self.GIRIS_YAPILDI_KONTROL).text == "erkan"
+
 
     """Searching Product and Choosing Third Result"""
     def urunuBul(self, nesne):
