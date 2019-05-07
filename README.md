@@ -3,9 +3,9 @@
 **Second, make sure you don't have any 'Wish Lists' on your account.**<br><br>
 # REQUIREMENTS<br>
 -You should install Selenium<br>
-'''
+```
 pip install selenium
-'''
+```
 <br>
 -You should install chromedriver for your browser and locate it as I did<br>
 -You can install it from [here](http://chromedriver.chromium.org/downloads).<br>
